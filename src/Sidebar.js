@@ -35,6 +35,13 @@ export default function Sidebar() {
       </li>
       
       <hr className="sidebar-divider" />
+      <li className="nav-item">
+        <Link className="nav-link collapsed" to="/Product">
+          <i className="fas fa-fw fa-wrench"></i>
+          <span>Products</span>
+        </Link>
+      </li>
+      <hr className="sidebar-divider" />
     </ul>
   );
 }
